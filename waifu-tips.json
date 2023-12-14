@@ -17,7 +17,7 @@
             "default": ["Hi~ come and tease me!"]
         },
         "referrer_message": {
-            "localhost": ["happy reading<span style=\"color:#0099cc;\">『", "』</span>", " - "],
+            "localhost": ["Hope you enjoy our works <span style=\"color:#0099cc;\">『", "』</span>", " - "],
             "baidu": ["Hello! Friends of Baidu search<br>You are looking for <span style=\"color:#0099cc;\">", "</span> Did you find Me?"],
             "so": ["Hello! Friends of Search 360<br>You are looking for <span style=\"color:#0099cc;\">", "</span> Did you find Me?"],
             "google": ["Hello! friends from google search<br>Happy reading<span style=\"color:#0099cc;\">『", "』</span>", " - "],
