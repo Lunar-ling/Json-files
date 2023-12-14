@@ -1,0 +1,101 @@
+{
+    "waifu": {
+        "console_open_msg": ["Haha, you opened the console, do you want to see my secret?"],
+        "copy_message": ["What you have copied, remember to add the source when reprinting"],
+        "screenshot_message": ["Well done, isn't that cute?"],
+        "hidden_message": ["Can we meet again..."],
+        "load_rand_textures": ["I don't have any other clothes yet", "Do my new clothes look good?"],
+        "hour_tips": {
+            "t5-7": ["Good morning! Today's plan is early morning, a good day is about to begin"],
+            "t7-11": ["Good morning! Work is going well, don't sit for long, get up and move more!"],
+            "t11-14": ["It's afternoon, I worked all morning, now it's time for lunch!"],
+            "t14-17": ["It's easy to get sleepy in the afternoon, have you achieved today's exercise target?"],
+            "t17-19": ["It's night! The sunset view outside the window is very beautiful, the most beautiful thing is the red sunset~"],
+            "t19-21": ["Good evening, how are you today?"],
+            "t21-23": ["It's very late, go to bed early, good night~"],
+            "t23-5": ["Are you a night owl? You don't sleep so late, why don't you wake up tomorrow?"],
+            "default": ["Hi~ come and tease me!"]
+        },
+        "referrer_message": {
+            "localhost": ["happy reading<span style=\"color:#0099cc;\">『", "』</span>", " - "],
+            "baidu": ["Hello! Friends of Baidu search<br>You are looking for <span style=\"color:#0099cc;\">", "</span> Did you find Me?"],
+            "so": ["Hello! Friends of Search 360<br>You are looking for <span style=\"color:#0099cc;\">", "</span> Did you find Me?"],
+            "google": ["Hello! friends from google search<br>Happy reading<span style=\"color:#0099cc;\">『", "』</span>", " - "],
+            "default": ["Hello! from <span style=\"color:#0099cc;\">", "</span> friends"],
+            "none": ["happy reading<span style=\"color:#0099cc;\">『", "』</span>", " - "]
+        },
+        "referrer_hostname": {
+            "example.com": ["sample site"],
+            "www.fghrsh.net": ["FGHRSH blog"]
+        },
+        "message_model": {
+            "1": ["Potion Maker's Pio Sauce~"],
+            "2": ["Tia Sauce from the Potion Maker~"]  
+        },
+        "hitokoto_api_message": {
+            "lwl12.com": ["This sentence comes from <span style=\"color:#0099cc;\">『{source}』</span>", "，Yes <span style=\"color:#0099cc; \">{creator}</span> Positive", "。"],
+            "fghrsh.net": ["The source of the sentence is <span style=\"color:#0099cc;\">『{source}』</span>，Yes <span style=\"color:#0099cc;\" >FGHRSH</span> there is a Favorite {date}!"],
+            "jinrishici.com": ["This poem is from <span style=\"color:#0099cc;\">《{title}》</span>，Yes {dynasty}poetry人 {author} Created!"],
+            "hitokoto.cn": ["This sentence comes from <span style=\"color:#0099cc;\">『{source}』</span>，Yes <span style=\"color:#0099cc;\"> {creator}</span> 在 hitokoto.cn Positive."]
+        }
+    },
+    "mouseover": [
+        { "selector": ".container a[href^='http']", "text": ["I want to see <span style=\"color:#0099cc;\">{text}</span> 么？"] },
+        { "selector": ".fui-home", "text": ["Click to enter the home page, if you want to return to the previous page, you can use the back function of the browser"] },
+        { "selector": ".fui-chat", "text": ["Every word, every frown and smile. One word and one sentence, one rowboat."] },
+        { "selector": ".fui-eye", "text": ["Hmm... Would you like to switch Kanban Girl?"] },
+        { "selector": ".fui-user", "text": ["Want to dress up your Play?"] },
+        { "selector": ".fui-photo", "text": ["Want to take a souvenir photo?"] },
+        { "selector": ".fui-info-circle", "text": ["here is information about me"] },
+        { "selector": ".fui-cross", "text": ["don't you like me..."] },
+        { "selector": "#tor_show", "text": ["Is it difficult to turn the page? Click to display the table of contents for this article"] },
+        { "selector": "#comment_go", "text": ["Want to comment on something?"] },
+        { "selector": "#night_mode", "text": ["Take care of your eyes at night"] },
+        { "selector": "#qrcode", "text": ["You can continue watching with just one scan on your phone, very convenient"] },
+        { "selector": ".comment_reply", "text": ["What would you complain about?"] },
+        { "selector": "#back-to-top", "text": ["back to start"] },
+        { "selector": "#author", "text": ["what should I call you"] },
+        { "selector": "#mail", "text": ["Leave your email, or you will be the one without a profile picture"] },
+        { "selector": "#url", "text": ["Where is your house so I can visit it"] },
+        { "selector": "#textarea", "text": ["Fill carefully, spam comments are prohibited"] },
+        { "selector": ".OwO-logo", "text": ["do you want to include emoji"] },
+        { "selector": "#csubmit", "text": ["Do you want to [submit]^(Commit), the first comment needs to be reviewed, please wait patiently~"] },
+        { "selector": ".ImageBox", "text": ["Click on image to enlarge"] },
+        { "selector": "input[name=s]", "text": ["Can't find what you're looking for? look for it"] },
+        { "selector": ".previous", "text": ["Go to previous page to view"] },
+        { "selector": ".next", "text": ["go to next page"] },
+        { "selector": ".dropdown-toggle", "text": ["this is the menu"] },
+        { "selector": "c-player a.play-icon", "text": ["want to listen to music"] },
+        { "selector": "c-player div.time", "text": ["can be set here<span style=\"color:#0099cc;\">playback progress</span>Wool cloth"] },
+        { "selector": "c-player div.volume", "text": ["can be set here<span style=\"color:#0099cc;\">Volume</span>Wool fabric"] },
+        { "selector": "c-player div.list-button", "text": ["<span style=\"color:#0099cc;\">playlist</span>what's there"] } ,
+        { "selector": "c-player div.lyric-button", "text": ["have<span style=\"color:#0099cc;\">lyrics</span>I can sing along"] },
+        { "selector": ".waifu #live2d", "text": ["What are you doing, quickly put your hand away", "Mouse... the mouse is in the wrong place!"] }
+    ],
+    "click": [
+        {
+            "selector": ".waifu #live2d",
+            "text": [
+                "Yeah... I accidentally bumped into him",
+                "Are You a Lolicon?",
+                "Have you seen my bear?",
+                "If I touch her again, I will call the police!⌇●﹏●⌇",
+                "911, there is a pervert here who has touched me(ó﹏ò｡)"
+            ]
+        }
+    ],
+    "seasons": [
+        { "date": "01/01", "text": ["<span style=\"color:#0099cc;\">New Year</span>Well, the new year has started again, this year{year} year~"] },
+        { "date": "02/14", "text": ["another year<span style=\"color:#0099cc;\">Valentine's day</span>，{year}Have you met someone this year ~"] },
+        { "date": "03/08", "text": ["Today is<span style=\"color:#0099cc;\">women's day</span>！"] },
+        { "date": "03/12", "text": ["Today is<span style=\"color:#0099cc;\">tree planting day</span>，To protect the environment"] },
+        { "date": "04/01", "text": ["Secretly telling you a secret ~<span style=\"background-color:#34495e;\">Today is April Fool's Day, don't fooled~</span>"] },
+        { "date": "05/01", "text": ["Today is<span style=\"color:#0099cc;\">Labor Day</span>，Have you planned where to go on holiday~"] },
+        { "date": "06/01", "text": ["Today is<span style=\"color:#0099cc;\">Children's Day</span>Well, happy times are always short, it would be nice if You never grow up..."] },
+        { "date": "09/03", "text": ["Today is<span style=\"color:#0099cc;\">Victory Day of the Chinese People's War of Resistance Against Japanese Aggression</span>，Remember history , remember the martyrs, cherish peace and create the future."] },
+        { "date": "09/10", "text": ["Today is<span style=\"color:#0099cc;\">Teachers' Day</span>，Greetings to the teachers at school~"] },
+        { "date": "10/01", "text": ["Today is<span style=\"color:#0099cc;\">National day</span>，New China has been established for 69 years"] },
+        { "date": "11/05-11/12", "text": ["This year<span style=\"color:#0099cc;\">Double Eleven</span>Who do you live with?~" ] },
+        { "date": "12/20-12/31", "text": ["These days<span style=\"color:#0099cc;\">Christmas</span>，The owner must have gone shopping again ~"] }
+    ]
+}
