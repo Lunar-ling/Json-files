@@ -22,7 +22,7 @@
             "so": ["Hello! Friends of Search 360<br>You are looking for <span style=\"color:#0099cc;\">", "</span> Did you find Me?"],
             "google": ["Hello! friends from google search<br>Happy reading<span style=\"color:#0099cc;\">『", "』</span>", " - "],
             "default": ["Hello! from <span style=\"color:#0099cc;\">", "</span> friends"],
-            "none": ["happy reading<span style=\"color:#0099cc;\">『", "』</span>", " - "]
+            "none": ["Hope you enjoy our works <span style=\"color:#0099cc;\">『", "』</span>", " - "]
         },
         "referrer_hostname": {
             "example.com": ["sample site"],
